@@ -103,7 +103,7 @@ class NeuralNetwork(object):
             for d_id, d_weight in deps:
                 activation = self.nodes[d_id].output() * d_weight
                 self.nodes[idx].value += activation
-                self.activations[idx] += activation
+            self.activations[idx] = self.nodes[idx].value
 
         output = []
         for idx in self.outputs:
