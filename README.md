@@ -3,7 +3,7 @@ This is an implementation of neat algoritm to make small bot drones fly to speci
 Written in python and rust to leverage the speed of rust while scoring to allow large population sizes.
 
 ## How to run
-1. To run first build exe with cargo run this command at project root:
+1. First run this command at project root to build exe:
 ```terminal
 cargo build --release
 ```
